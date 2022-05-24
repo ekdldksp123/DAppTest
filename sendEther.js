@@ -16,7 +16,7 @@ const node_host = `https://ropsten.infura.io/v3/${infura_token}`
 const web3 = new Web3(node_host)
 
 const send_account = "0x483e736C3aC8c11B2F9aCC148f340202c938B6A5"
-const receive_account = "" //?? 어디로 보내라는 거지..
+const receive_account = "0x72f3f648D30A56dC67FC55B85d14846b7Fe39fA7" //?? 어디로 보내라는 거지..
 
 const privateKeyBuffer = Buffer.from(private_key, "hex")
 
